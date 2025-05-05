@@ -130,4 +130,184 @@ color: white;
     color: black;
     outline: none;
   }
+  .main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    
+  }
+  .img-container{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  .printing-teaser{
+    padding: 20px;
+
+  }
+  .tech{
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+  }
+  .paragr{
+    color: rgb(44, 44, 102);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  .right-img{
+    display: flex;
+   flex-direction: row;
+    padding: 20px;
+    position: relative;
+    top: 0;
+  }
+  .hong-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .campus,.social{
+    padding:20px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+  }
+  .high-skl,.graduate{
+    color: rgb(44, 44, 102);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+  }
+  .rameen{
+    padding-top: 20px;
+  }
+  .nas-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .health, .community{
+    padding: 20px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+  }
+  .academy,.nourish{
+    color: rgb(44, 44, 102);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+  }
+  .flourish{
+    padding-top: 20px;
+  }
+  .more-news{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    padding-left:50vw ;
+    padding-bottom: 80px;
+  }
+  .img-planet{
+    height: 47vw;
+    background-image: url(planet-surface-fractures.avif);
+    display: flex;
+    justify-content:flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 31px;
+  }
+  .planet-div {
+    height: 45vw;
+    width: 37vw;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    gap: 20px;
+  }
+  .left-ln,
+  .right-ln,
+  .vert-top,
+  .vert-bottom {
+    position: absolute;
+    background-color: rgb(173, 176, 211);
+    margin: 20p 0;
+  }
+  
+  
+  .left-ln {
+    top: 10px;
+    left: 10px;
+    width: 0.2px;
+    height: 96%;
+  }
+  
+  
+  .right-ln {
+    top: 10px;
+    right: 10px;
+    height: 95.8%;
+  }
+  
+  
+  .vert-top {
+    top: 10px;
+    left: 10px;
+    height: 0.2px;
+    width: 95%;
+  }
+  
+ 
+  .vert-bottom {
+    bottom: 10px;
+    left: 10px;
+    height: 0.2px;
+    width: 95%;
+  }
+  .natural{
+    padding: 25px;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  .first-p{
+    color: rgb(44, 44, 102);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.3em;
+  }
+  .second-p{
+    color: rgb(44, 44, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 30px;
+    letter-spacing: 0.5px;
+    
+  }
+  .learn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(44, 44, 102);
+    text-align: center;
+    padding: 50px;
+  }
+    
   
