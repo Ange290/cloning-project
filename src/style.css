@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.navBar{
+    height: 50vw;
+    background-image: url(pennsylvania-campus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+  .logo-penn{
+    padding-left: 30px;
+    
+  }
+  .right-side{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 20px;
+padding: 10px 20px 10px 20px;
+position: relative;
+z-index: 1;
+top: 0;
+margin-top: -10vw;
+}
+  .search-icon{
+    padding: 8px;
+    margin: 0;
+  }
+  .btn{
+    padding: 12px;
+    margin: 0; 
+    background-color: brown;
+    border:none;
+  }
+  select{
+padding: 8px;
+margin: 0;
+background: none;
+border: none;
+color: white;
+  }
+  select:focus{
+    color: black;
+    outline: none;
+  }
+  .line {
+    border-top: 1px solid white;  
+    margin: 20px 0;               
+  }
+  .link-bar{
+ color: white;
+ z-index: 2;
+ margin-left: 35vw;
+ position: relative;
+ letter-spacing: 1px;
+ 
+  }
+  .link-bar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding:13px;
+    font-size: 13px;
+    
+  }
+  .text-head{
+    color: white;
+    padding-left: 35px;
+    padding-top: 130px;
+    position: relative;
+    z-index: 2;
+  }
+  .f-text{
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .s-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    padding: 20px 20px 1px 20px;
+  }
+  .hr-line{
+    border-top: 2px solid gray;
+    margin: 20px 0;
+    width: 5vw;
+  }
+  .t-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;;
+  }
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px; 
+  }
+  
+  .news {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(3, 3, 51);
+    font-size: 70px;
+  }
+  
+
+  .top-sele {
+    color: rgb(4, 4, 78);
+    padding: 2px;
+    border: none;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  .top-sele:focus {
+    color: black;
+    outline: none;
+  }
+  
